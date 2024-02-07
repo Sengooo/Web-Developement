@@ -1,0 +1,161 @@
+body{
+    font-family: 'Segoe UI', sans-serif;
+}
+.container{
+    width: 100%;
+    left:0%;
+    right:0%;
+}
+.row-bar{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+.Microsoft_image{
+    height: 25px;
+    margin-bottom: -5px;
+}
+#microsoft_home_link{
+    text-decoration: none;
+}
+.bars{
+    width: 42%;
+    box-sizing: border-box;
+}
+.first_bar{
+    text-align: left;
+}
+.second_bar{
+    text-align: right;
+}
+.top_bar{
+
+    font-weight: 350;
+    font-size: 0.9rem;
+}
+.top_first_bar{
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.top_second_bar{
+    vertical-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.voiti{
+    padding-left: 20px;
+}
+.top_bar a{
+
+    text-decoration: none;
+    color: black;
+}
+.top_bar a:hover{
+    border-bottom: 2px solid black;
+}
+.top_first_bar:active{
+    border: 1px dashed black;
+}
+#search{
+    vertical-align: center;
+    position: relative;
+    width: 20px;
+    padding-top: 2px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline;
+}
+
+.main-img{
+    width:100%;
+    z-index: 1;
+}
+.Information{
+    position: absolute;
+    text-align: left;
+    margin-top: -21%;
+    margin-left: 10%;
+}
+.Microsoft_365{
+    font-weight: 500;
+    font-size: 2.2rem;
+}
+#buttons{
+    height: 50px;
+    display: flex;
+    justify-content: left;
+    margin-top: 25px;
+}
+.button{
+    box-sizing: border-box;
+}
+
+#first-button-text{
+    background-color: #0067b8;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-right: 15px;
+    width: 140px;
+    height: 40px;
+}
+#second-button-text{
+    width: 140px;
+    height: 40px;
+    border:none;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: transparent;
+}
+
+.container-gallery{
+    margin-top:60px;
+    margin-left: -60px;
+    display: flex;
+    justify-content: center;
+}
+.gallery_box{
+
+    width: 320px;
+    box-sizing: border-box;
+
+}
+
+.gallery_box img{
+    margin-left: 60px;
+
+}
+.card-body h2{
+    font-size: 1.8125rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    line-height: 1.2;
+    box-sizing: border-box;
+}
+.card-body {
+    margin-left: 60px;
+}
+.card-body p {
+
+    font-size: 0.95rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+}
+
+.card-body a {
+
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+    text-decoration: none;
+    color: #0067b8;
+}
