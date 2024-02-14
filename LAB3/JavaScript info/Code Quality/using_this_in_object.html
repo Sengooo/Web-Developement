@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <script>
+    function makeUser() {
+      return {
+        name: "John",
+        ref: this
+      };
+    }
+
+    let user = makeUser();
+
+    alert( user.ref.name );
+  </script>
+</head>
+<body>
+
+</body>
+</html>

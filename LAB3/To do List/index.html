@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab3</title>
+    <link rel = "stylesheet" href = "style.css">
+
+
+</head>
+<body>
+    <div class = "container">
+        <div class = "header">
+            <div class = "sign">
+                <h3 id = "header"> ToDo List </h3>
+            </div>
+        </div>
+        <div class = "box">
+            <div class = "in_box_header">
+                <h2 id = "toDo"> ToDo List </h2>
+            </div>
+            <div class = "activity_input">
+                <input type="text"
+                       id = "input_area"
+                       class = "row"
+                       placeholder="New Task">
+
+                <button id = "add" class = "row" onclick="addToList()" > Add </button>
+            </div>
+            <div class = "items">
+                <ul id="activities">
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src = "script.js"></script>
+</body>
+</html>
