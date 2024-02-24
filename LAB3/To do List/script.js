@@ -34,7 +34,7 @@ function createList(){
     divCheckbox.appendChild(checkbox);
     li.appendChild(divCheckbox);
 
-    paragraph.textContent = addActivityToList.value;
+    paragraph.textContent = addActivityToList.value; 
     paragraph.className = "activity-info";
     paragraph.classList.add("row");
     divActivity.appendChild(paragraph);
