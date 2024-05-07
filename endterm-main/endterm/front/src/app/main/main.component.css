@@ -1,0 +1,123 @@
+.block1 {
+    background-color: #ebebeb;
+    padding: 25px 0;
+}
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+.wrapper2 {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.promotion-text-h1 {
+    font-size: 4.5rem;
+    margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}.promotion-text-h2 {
+    font-size: 1.5rem;
+    margin: 0;
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+}
+.text-block {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    width: 60%;
+    margin: auto 0;
+}
+.img-block {
+    width: 40%;
+}
+.get-started {
+    font-size: 14px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding: 12px 30px;
+    border-radius: 5px;
+    color: #ffffff;
+    background: #b1b95d;
+    cursor: pointer;
+    border: 0;
+}
+.get-started:hover {
+    background: #808543;
+}
+.block2 {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    font-family: 'PT Serif', serif;
+}
+.section-title {
+    margin: 50px auto;
+    text-align: center;
+}
+.mini-icon {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.feature-title {
+    margin-bottom: 18px;
+    font-size: 1.25rem;
+    text-align: center;
+}
+.rte {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.block3 {
+    background-color: #b1b95d;
+    margin-top: 50px;
+    padding: 50px 0;
+    font-family: 'PT Serif', serif;
+    color: #ffffff;
+}
+.promotion-title {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+.promotion-description {
+    font-weight: 400;
+    font-size: 16px;
+    max-width: 640px;
+    text-align: center;
+}
+.center {
+    margin: 0 auto;
+}
+.inner-block4 {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    margin-top: 50px;
+}
+.egb {
+    max-width: 100%;
+}
+.left {
+    padding-right: 60px;
+}
+.right {
+    padding-left: 60px;
+}
+.block4 {
+    font-family: 'PT Serif', serif;
+    margin-bottom: 20px;
+}
+.text1 {
+    text-align: left;
+    font-weight: 600;
+}
+.text2 {
+    text-align: left;
+    font-weight: 400;
+    font-size: 18px;
+}
